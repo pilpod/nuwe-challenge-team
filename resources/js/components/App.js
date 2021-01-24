@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./Example";
+import Hero from "./hero/Hero";
 
 function App() {
     return (
         <div className="container">
-            <Button />
+            <Hero />
         </div>
     );
 }
