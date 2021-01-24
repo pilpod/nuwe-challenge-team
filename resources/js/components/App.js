@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./Example";
+import Footer from "./footer/Footer";
 
 function App() {
     return (
         <div className="container">
-            <Button />
+            <Footer />
         </div>
     );
 }
