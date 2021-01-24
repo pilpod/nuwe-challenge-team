@@ -20,14 +20,7 @@
 
             <div>
                 <ul>
-                @foreach ($users as $user)
-                    @if($user->isAdmin == false)
-                        <li>
-                            <span>{{ $user->name }}</span>
-                            <a href="{{ route('admin.edit', $user->id) }} " class="btn btn-primary" type="submit">Edit</a>
-                        </li>
-                    @endif
-                @endforeach
+                    <li>{{ $user->name }}</li>
                 </ul>
             </div>
         </div>
