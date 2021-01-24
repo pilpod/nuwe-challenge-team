@@ -36,8 +36,16 @@
                 </div>
             @endif
 
+            <div>
             
-            <div id="app"></div>
+                <div id="hero"></div>
+                <div id="about-us"></div>
+                <div id="course"></div>
+                <div id="user-profiles"></div>
+                <div id="footer"></div>
+            
+            </div>
+
         </div>
 
         

@@ -1,0 +1,52 @@
+.userProfiles-container h2 {
+    margin-top: 50px;
+    color: #16c79a;
+}
+
+.userProfiles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.userCards-container {
+    display: flex;
+}
+
+.userCards {
+    width: 290px;
+    height: 416px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+img {
+    width: 290px;
+    height: 303px;
+}
+
+.userCards-container p {
+    font-size: 20px;
+    text-align: left !important;
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+    color: #16c79a;
+}
+
+@media screen and (max-width: 768px) {
+    .userCards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userProfiles-container h2 {
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        color: #16c79a;
+    }
+}

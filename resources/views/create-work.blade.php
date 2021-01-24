@@ -29,31 +29,31 @@
             @csrf
             <div class="mb-3">
                 <label for="position" class="form-label">Position</label>
-                <input type="text" class="form-control" id="position" name="position" placeholder="position">
+                <input type="text" class="form-control" id="position" name="position" placeholder="position" required>
             </div>
 
             <div class="mb-3">
                 <label for="org_name" class="form-label">Organization Name</label>
-                <input type="text" class="form-control" id="org_name" name="org_name" placeholder="org_name">
+                <input type="text" class="form-control" id="org_name" name="org_name" placeholder="org_name" required>
             </div>
 
             <div class="mb-3">
                 <label for="org_activity" class="form-label">Organization Activity</label>
-                <input type="text" class="form-control" id="org_activity" name="org_activity" placeholder="org_activity">
+                <input type="text" class="form-control" id="org_activity" name="org_activity" placeholder="org_activity" required>
             </div>
 
             <div class="mb-3">
                 <label for="description" class="form-label">Description</label>
-                <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                <textarea class="form-control" id="description" name="description" rows="3" required></textarea>
             </div>
 
             <div class="row">
-                <label for="month_start" class="form-label">Description</label>
+                <label for="month_start" class="form-label" required>Description</label>
                 <select name="month_start" id="month_start" class="col-4 mx-2">
                     <option value="Janary">Janary</option>
                     <option value="Febrery">Febrery</option>
                 </select>
-                <label for="year_start" class="form-label">Description</label>
+                <label for="year_start" class="form-label" required>Description</label>
                 <select name="year_start" id="year_start" class="col-2">
                     <option value="2021">2021</option>
                     <option value="2020">2020</option>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="row">
-                <label for="month_end" class="form-label">Description</label>
+                <label for="month_end" class="form-label" required>Description</label>
                 <select name="month_end" id="month_end" class="col-auto mx-2">
                     <option value="Janary">Janary</option>
                     <option value="Febrery">Febrery</option>
