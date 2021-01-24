@@ -128,5 +128,9 @@
                 </div>
             </div>
         </div>
+
+        <div id="react"></div>
+        
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>
