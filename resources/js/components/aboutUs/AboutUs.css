@@ -1,5 +1,5 @@
 h2 {
-    color:#16C79A;
+    color: #16c79a;
 }
 
 .aboutUs-container {
@@ -8,19 +8,27 @@ h2 {
     flex-direction: column;
     align-items: center;
     width: 750px;
+    margin-top: 60px;
 }
 
-.aboutUs-container p {
+.aboutUs-container .info {
     text-align: center !important;
     font-size: 20px;
 }
 
-@media screen and (max-width: 768px)  { 
-    .abotUs-container {
+@media screen and (max-width: 768px) {
+    .aboutUs-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
         margin: 30px;
-    } 
+        max-width: 300px;
+    }
+
+    .aboutUs-container .info {
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+    }
 }

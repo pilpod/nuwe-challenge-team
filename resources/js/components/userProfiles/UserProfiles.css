@@ -1,7 +1,6 @@
-
-h2 {
+.userProfiles-container h2 {
     margin-top: 50px;
-    color:#16C79A;
+    color: #16c79a;
 }
 
 .userProfiles-container {
@@ -13,14 +12,13 @@ h2 {
 
 .userCards-container {
     display: flex;
-
 }
 
 .userCards {
-width: 290px;
-height: 416px;
-margin-left: 20px;
-margin-right: 20px;
+    width: 290px;
+    height: 416px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 img {
@@ -36,5 +34,19 @@ img {
 
 h3 {
     margin: 0px;
-    color:#16C79A;
+    color: #16c79a;
+}
+
+@media screen and (max-width: 768px) {
+    .userCards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userProfiles-container h2 {
+        display: flex;
+        text-align: center;
+        margin-top: 20px;
+        color: #16c79a;
+    }
 }
