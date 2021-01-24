@@ -25,4 +25,22 @@ class AdminController extends Controller
         return view('edit-user', ['user' => $user]);
     }
 
+    public function show($id)
+    {
+        $user = User::find($id);
+        return view('show-user', ['user' => $user]);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $user = User::find($id);
+
+        $user->name = $request->name;
+        $user->isAdmin = $request->isAdmin;
+
+        $user->save();
+
+        return view('show-user', ['user' => $user]);
+    }
+
 }

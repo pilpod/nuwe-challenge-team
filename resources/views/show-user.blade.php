@@ -20,17 +20,10 @@
 
             <div>
                 <ul>
-                    
-                    <form action="{{ route('admin.update', $user->id) }}" method="POST">
-                        @csrf
-                        @method('put')
-                        <input type="text" name="name" value="{{ $user->name }}">
-                        <select name="isAdmin" id="isAdmin">
-                            <option value="0">Simple User</option>
-                            <option value="1">Administrador</option>
-                        </select>
-                        <button class="btn btn-primary" type="submit">Update</button>
-                    </form>
+                    <li>
+                        <span>{{ $user->name }}</span>
+                        <a href="{{ route('admin.edit', $user->id) }} " class="btn btn-primary" type="submit">Edit</a>
+                    </li>
                 </ul>
             </div>
         </div>

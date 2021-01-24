@@ -52,10 +52,16 @@ class AdminTest extends TestCase
     }
 
     /** @test */
-    public function test_admin_can_edit_user_profile()
+    public function test_admin_can_update_user_profile()
     {
-        // assertions
+        $userAdmin = User::factory()->create(['isAdmin' => true]);
+        $user = User::factory()->create(['isAdmin' => false]);
+        $user->name = 'helena';
+        
+        $this->actingAs($userAdmin)
+            ->put(route('admin.update', $user->id), $user->toArray());
+
+        $this->assertDatabaseHas('users', ['id' => $user->id, 'name' => 'helena']);
     }
-    
     
 }

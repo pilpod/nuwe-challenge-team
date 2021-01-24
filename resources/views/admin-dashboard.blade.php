@@ -23,7 +23,7 @@
                 @foreach ($users as $user)
                     @if($user->isAdmin == false)
                         <li>
-                            <span>{{ $user->name }}</span>
+                            <a href="{{ route('admin.show', $user->id) }}">{{ $user->name }}</a>
                             <a href="{{ route('admin.edit', $user->id) }} " class="btn btn-primary" type="submit">Edit</a>
                         </li>
                     @endif
