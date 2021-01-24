@@ -4,15 +4,15 @@ import AboutUs from "./aboutUs/AboutUs.js";
 import UserProfiles from "./userProfiles/UserProfiles.js";
 import UserCard from "./userCard/UserCard.js";
 
-
 function App() {
     return (
         <div className="container">
             <AboutUs />
             <UserProfiles />
             <UserCard />
-
-            
+            <Hero />
+            <UserProfile />
+            <Footer />
         </div>
     );
 }
