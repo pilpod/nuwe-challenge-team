@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hero from "./hero/Hero";
-import Footer from "./footer/Footer";
-import UserProfile from "./user-profile/UserProfile";
+import AboutUs from "./aboutUs/AboutUs.js";
+import UserProfiles from "./userProfiles/UserProfiles.js";
+import UserCard from "./userCard/UserCard.js";
 
 function App() {
     return (
-        <div>
+        <div className="container">
+            <AboutUs />
+            <UserProfiles />
+            <UserCard />
             <Hero />
             <UserProfile />
             <Footer />
