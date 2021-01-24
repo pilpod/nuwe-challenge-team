@@ -6,7 +6,7 @@ import UserProfile from "./user-profile/UserProfile";
 
 function App() {
     return (
-        <div className="container">
+        <div>
             <Hero />
             <UserProfile />
             <Footer />
