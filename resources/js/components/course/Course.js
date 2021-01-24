@@ -58,3 +58,8 @@ function Course() {
 }
 
 export default Course;
+
+if (document.getElementById("course")) {
+    ReactDOM.render(<Course />, document.getElementById("course"));
+}
+

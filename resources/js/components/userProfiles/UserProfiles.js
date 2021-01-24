@@ -22,7 +22,7 @@ function UserProfiles() {
                 <div className="userCards">
                     <img src="../assets/vanessa.png"/>
                     <h3>Vanessa Poppe</h3>
-                    <p>Front-End developer, CSS, Ract y JavaScript</p>
+                    <p>Front-End developer, CSS, React y JavaScript</p>
                 </div>
             </div>
                         
@@ -31,3 +31,8 @@ function UserProfiles() {
 };
 
 export default UserProfiles;
+
+
+if (document.getElementById("user-profiles")) {
+    ReactDOM.render(<UserProfiles />, document.getElementById("user-profiles"));
+}

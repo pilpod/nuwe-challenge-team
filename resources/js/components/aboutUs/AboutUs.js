@@ -16,3 +16,8 @@ function AboutUs() {
 };
 
 export default AboutUs;
+
+
+if (document.getElementById("about-us")) {
+    ReactDOM.render(<AboutUs />, document.getElementById("about-us"));
+}

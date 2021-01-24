@@ -16,6 +16,6 @@ function Hero() {
 
 export default Hero;
 
-// if (document.getElementById("welcome")) {
-//     ReactDOM.render(<Welcome />, document.getElementById("welcome"));
-// }
+if (document.getElementById("hero")) {
+    ReactDOM.render(<Hero />, document.getElementById("hero"));
+}
