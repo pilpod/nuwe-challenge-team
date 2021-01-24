@@ -1,0 +1,45 @@
+.userCard-Container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+    width: 1000px;
+}
+
+.userCard-Container__top {
+    display: flex;
+    margin: auto;
+}
+
+.userCard-Container__data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #16c79a;
+    margin-left: 300px;
+}
+
+.userCard-Container__data h3 {
+    margin-top: 30px;
+}
+
+.userCard-Container__bottom {
+    display: flex;
+}
+
+.userCard-Container__bottom h3 {
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.userCard-Container__text1 {
+    margin: 50px;
+}
+
+.userCard-Container__text2 {
+    margin: 50px;
+}
+
+p {
+    margin-left: 50px;
+}
