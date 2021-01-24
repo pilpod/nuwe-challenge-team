@@ -14,17 +14,19 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    {{ __('You are logged in admin dashboard!') }}
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="mt-4">
-        <a href=" {{ route('user.show', $user) }} " class="btn btn-primary">See your works</a>
-    </div>
-    <div class="mt-4">
-        <a href=" {{ route('user.create') }} " class="btn btn-primary">Create Work Experience</a>
+            <div>
+                <ul>
+                    <li>
+                        <span>{{ $user->name }}</span>
+                        <a href="{{ route('admin.edit', $user->id) }} " class="btn btn-primary" type="submit">Edit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 @endsection
