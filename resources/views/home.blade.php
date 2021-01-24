@@ -19,5 +19,12 @@
             </div>
         </div>
     </div>
+
+    <div class="mt-4">
+        <a href=" {{ route('user.show', $user) }} " class="btn btn-primary">See your works</a>
+    </div>
+    <div class="mt-4">
+        <a href=" {{ route('user.create') }} " class="btn btn-primary">Create Work Experience</a>
+    </div>
 </div>
 @endsection

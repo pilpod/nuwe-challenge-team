@@ -22,15 +22,15 @@ class WorkExperienceFactory extends Factory
     public function definition()
     {
         return [
-            'position' => $this->faker->text(50),
-            'org_name' => $this->faker->text(255),
-            'org_activity' => $this->faker->text(255),
+            'position' => $this->faker->text(25),
+            'org_name' => $this->faker->text(50),
+            'org_activity' => $this->faker->text(50),
             'description' => $this->faker->paragraph(5),
             'month_start' => $this->faker->monthName(),
             'year_start' => $this->faker->year(),
             'month_end' => $this->faker->monthName(),
             'year_end' => $this->faker->year(),
-            'user_id' => $this->faker->numberBetween(1,3),
+            'user_id' => $this->faker->numberBetween(1,10),
         ];
     }
 }
