@@ -9,10 +9,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* flex-wrap: wrap; */
     background-color: var(--quaternary-color);
     height: 92.5vh;
-    width: 89.236vw;
+    width: 100vw;
 }
 
 .courses-parent-title {
@@ -29,7 +28,8 @@
 }
 
 .course-card {
-    padding: 20px;
+    margin: 30px;
+    width: 395px;
 }
 
 .course-h3 {
@@ -65,4 +65,8 @@
     height: 59px;
     width: 138px;
     border-radius: 9px;
+}
+
+.course-button:hover {
+    color: var(--quaternary-color);
 }

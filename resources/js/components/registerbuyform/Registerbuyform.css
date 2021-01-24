@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #16c79a;
+    --terciary-color: #ffffff;
+    --quaternary-color: #19456b;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: var(--secondary-color);
+}
+
+.input {
+    padding-left: 10px;
+    height: 44px;
+    width: 529px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.buy-button {
+    background-color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
+    color: var(--terciary-color);
+    font-size: 28px;
+    height: 59px;
+    width: 160px;
+    border-radius: 29.5px;
+    margin-top: 50px;
+}
+
+.buy-button:hover {
+    color: var(--quaternary-color);
+}
