@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #16c79a;
+    --terciary-color: #ffffff;
+    --quaternary-color: #19456b;
+}
+
+.courses-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--quaternary-color);
+    height: 92.5vh;
+    width: 100vw;
+}
+
+.courses-parent-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    color: var(--terciary-color);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.courses-section {
+    display: flex;
+    justify-content: center;
+}
+
+.course-card {
+    margin: 30px;
+    width: 395px;
+}
+
+.course-h3 {
+    color: var(--secondary-color);
+    font-size: 28px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.course-p {
+    color: var(--terciary-color);
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+}
+
+.course-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course-h2 {
+    font-size: 35px;
+    margin: 0;
+    color: var(--secondary-color);
+}
+
+.course-button {
+    background-color: var(--secondary-color);
+    font-family: "Roboto", sans-serif;
+    color: var(--terciary-color);
+    font-size: 28px;
+    height: 59px;
+    width: 138px;
+    border-radius: 9px;
+}
+
+.course-button:hover {
+    color: var(--quaternary-color);
+}
