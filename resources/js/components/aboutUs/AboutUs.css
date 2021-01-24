@@ -1,0 +1,26 @@
+h2 {
+    color:#16C79A;
+}
+
+.aboutUs-container {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 750px;
+}
+
+.aboutUs-container p {
+    text-align: center !important;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px)  { 
+    .abotUs-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 30px;
+    } 
+}

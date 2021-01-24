@@ -1,11 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./Example";
+import AboutUs from "./aboutUs/AboutUs.js";
+import UserProfiles from "./userProfiles/UserProfiles.js";
+import UserCard from "./userCard/UserCard.js";
+
 
 function App() {
     return (
         <div className="container">
-            <Button />
+            <AboutUs />
+            <UserProfiles />
+            <UserCard />
+
+            
         </div>
     );
 }
