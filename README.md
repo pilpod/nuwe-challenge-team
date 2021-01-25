@@ -4,8 +4,6 @@
 This is a full responsive web site made for PERSEO, a fictional Human Resources company. We did the front-end in React, where you can see some of the candidate profiles and courses you can buy. In addition, you have access to 'login' and 'registration' areas.<br>
 From the back-end side, made with laravel, you will access into the user and admin private zones, being able to add your profile, modify or delete it.
 
-Live preview here: [Take a look to our project!!](https://)
-
 ## Design
 Beautiful design made by [Lorena](https://github.com/crimanlor), check here the [prototipe](https://www.figma.com/file/jfpHMfhmKVMjA2M5BiU8U7/Hackaton?node-id=0%3A1).
 
@@ -21,7 +19,7 @@ Code editor and install React/Laravel
 ### Installing 🔧
 Clone ' repository from GitHub:
 ```
-$ git clone https://
+$ git clone https://github.com/pilpod/nuwe-challenge-team
 ```
 
 ## Built With 🛠️
@@ -38,7 +36,7 @@ $ git clone https://
 * **Joseph** - *Back-End* - [GitHub Joseph](https://github.com/JosephCrespin)
 * **Lorena Criado** - *Front-End* - [GitHub Lorena](https://github.com/crimanlor)
 * **Vanessa Poppe** - *Front-End* - [GitHub Vanessa](https://github.com/vanessacor)
-* **Moisés Mena** - *Front-End* - [GitHub Moisés](https://github.com/mmena4)
+* **Moisés Mena** - *Front-End* - [GitHub Moisés](https://github.com/moisesmena)
 
 
 ## License 📄
